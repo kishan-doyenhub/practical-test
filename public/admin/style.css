@@ -1,0 +1,133 @@
+.required{
+    color: red;
+}
+
+.box-body ul {list-style: none;padding:10px;}
+.box-body .ldetail{cursor:move;}
+.box-body .ldetail h4{margin:0px;}
+.box-body .ldetail p{margin:0px;}
+
+#sortableList li {border: 1px solid rgb(197, 199, 202);padding: 10px;background-color: #fff;border-radius: 4px;margin-bottom: 5px;}
+.cursor{cursor: pointer;}
+.select2-container{
+    width: 100% !important;
+}
+
+/* .daterangepicker td.in-range {
+    background-color: #b8c7ce !important;
+} */
+
+.float-right{
+    float: right;
+}
+
+.notFromControl{
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+div h4{
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* Margin Top  */
+.mt-05{margin-top:05px;}
+.mt-10{margin-top:10px;}
+.mt-15{margin-top:15px;}
+.mt-20{margin-top:20px;}
+.mt-25{margin-top:25px;}
+.mt-30{margin-top:30px;}
+.mt-35{margin-top:35px;}
+/* Margin Bottom  */
+.mt-05{margin-bottom:05px;}
+.mt-10{margin-bottom:10px;}
+.mt-15{margin-bottom:15px;}
+.mt-20{margin-bottom:20px;}
+.mt-25{margin-bottom:25px;}
+.mt-30{margin-bottom:30px;}
+.mt-35{margin-bottom:35px;}
+/* Margin Left  */
+.ml-05{margin-left:05px;}
+.ml-10{margin-left:10px;}
+.ml-15{margin-left:15px;}
+.ml-20{margin-left:20px;}
+.ml-25{margin-left:25px;}
+.ml-30{margin-left:30px;}
+.ml-35{margin-left:35px;}
+/* Margin Bottom  */
+.mb-05{margin-bottom:05px;}
+.mb-10{margin-bottom:10px;}
+.mb-15{margin-bottom:15px;}
+.mb-20{margin-bottom:20px;}
+.mb-25{margin-bottom:25px;}
+.mb-30{margin-bottom:30px;}
+.mb-35{margin-bottom:35px;}
+
+.modal-fullPage {
+    min-width: 100%;
+    margin: 0;
+}
+.modal-fullPage .modal-content {
+    min-height: 100vh;
+}
+
+li a.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.section {
+
+    background: #fff;
+    border-radius: 4px;
+    margin: 1rem 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.reservationView{
+    border: 1px solid;
+    border-radius: 15px
+}
+
+.arrdep-dates{
+    background: #677484;
+    color: #fff;
+    border-radius: 3px;
+    height: 100%;
+    font-size: 16px;
+    padding: 6px 2px;
+}
+.dashboardDataTag h4{
+    border: 0; 
+    padding: 0;
+    color:#116bd9;
+}
+
+.dashboardDataTag .dashboardSpan{
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 2px;
+}
+.dashboardDataTag .tagname{
+    background: #4caf50;
+    border-radius: 3px;
+    padding: 1px 4px;
+    color: #fff;
+    display: inline-block;
+}
+
+@media (max-width:480px) {
+    .AddSpecialConditions img{
+        width: 245px !important;
+    }
+    .content-header h1 small{
+        float: none !important;
+        padding: 5px;
+    }
+    .roomNameLastTab h5{
+        padding: 10px;
+    }
+}
